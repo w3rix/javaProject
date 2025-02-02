@@ -1,4 +1,4 @@
-# 🎯 Yaman Türköz - Project
+# 🎯 Crypto Currency Trading Project
 
 ## 📌 Overview
 
@@ -14,7 +14,7 @@ Bu proje, **web tabanlı bir uygulama** olup, kullanıcıya **kripto para ikonla
 ## 📂 Project Structure
 
 ```
-Yaman_Turkoz/
+Meric_Cengiz/
 │── db.js                 # Veritabanı bağlantısı veya verileri içeren dosya
 │── images/               # Kripto para ve buton ikonları
 │── project.css           # Stil dosyası
@@ -43,12 +43,6 @@ Bu projede kullanılan görseller şunlardır:
 - UI Elements (PNG, JPG, WEBP formatında)
 
 ## 🚀 Installation & Usage
-
-1. **Projeyi Klonla**  
-   ```bash
-   git clone https://github.com/yourusername/Yaman_Turkoz_Project.git
-   cd Yaman_Turkoz_Project
-   ```
 
 2. **Projeyi Bir Tarayıcıda Aç**  
    - `project.html` dosyasını **Google Chrome, Firefox veya Edge** tarayıcınızda açın.
