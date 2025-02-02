@@ -1,55 +1,46 @@
-# 🎯 Crypto Currency Trading Project
+# 🚗 FindJourney - Transportation Management System
 
 ## 📌 Overview
 
-Bu proje, **web tabanlı bir uygulama** olup, kullanıcıya **kripto para ikonları içeren bir arayüz** sunar. **HTML, CSS ve JavaScript** kullanılarak geliştirilmiştir ve bir **veritabanı (db.js)** ile desteklenmektedir.
+FindJourney is a **Java-based transportation management system** that allows users to **choose between transportation companies** and organize their journeys. The project is built using **object-oriented programming (OOP) principles** and includes a **Graphical User Interface (GUI)**.
 
 ## 🛠️ Tech Stack
 
-- **HTML** - Kullanıcı arayüzü tasarımı için.
-- **CSS** - Sayfa düzeni ve stil için.
-- **JavaScript (project.js)** - Dinamik içerik ve işlemler için.
-- **db.js** - Veri yönetimi için.
+- **Java** - Main programming language.
+- **Swing (GUI)** - For building the graphical user interface.
+- **OOP (Inheritance, Interface, Has-A Relationships)** - Object-oriented structures.
 
 ## 📂 Project Structure
 
 ```
-Meric_Cengiz/
-│── db.js                 # Veritabanı bağlantısı veya verileri içeren dosya
-│── images/               # Kripto para ve buton ikonları
-│── project.css           # Stil dosyası
-│── project.html          # Ana HTML dosyası
-│── project.js            # Ana JavaScript dosyası
+FindJourney/
+│── bin/                 # Compiled Java class files
+│── src/                 # Java source code
+│── UML Diagram.pdf      # UML diagram illustrating system architecture
+│── .classpath           # Eclipse configuration file
+│── .project             # Eclipse project file
 ```
 
-## 🎨 UI Elements & Assets
-
-Bu projede kullanılan görseller şunlardır:
-
-### **Kripto Para İkonları:**
-- Bitcoin (BTC)
-- Ethereum (ETH)
-- Avalanche (AVAX)
-- Dogecoin (DOGE)
-- Polkadot (POL)
-- Ripple (XRP)
-- TRON (TRX)
-- Synthetix (SNX)
-- Cardano (ADA)
-
-### **Arayüz Butonları:**
-- Play/Pause/Skip
-- Logout Button
-- UI Elements (PNG, JPG, WEBP formatında)
+### **Source Code (src/) Structure:**
+- **GUI/** → Graphical User Interface components (`driverFrame.java`, `TransportationGUI.java`, `TripFrame.java`)
+- **HasA/** → "Has-A" relationship classes (`Driver.java`)
+- **Inheritance/** → Classes following inheritance relationships (`Uber.java`, `Lyft.java`, `Cabify.java`, `TransportationCompany.java`)
+- **Interface/** → Interfaces (`Discountable.java`)
+- **MainAndSystem/** → Main system logic (`TransportationMain.java`, `TransportationSystem.java`)
 
 ## 🚀 Installation & Usage
 
-2. **Projeyi Bir Tarayıcıda Aç**  
-   - `project.html` dosyasını **Google Chrome, Firefox veya Edge** tarayıcınızda açın.
+1. **Open the Project in Eclipse or IntelliJ IDEA**  
+   - **For Eclipse:** Use `File > Open Projects from File System` to import the project.
+   - **For IntelliJ IDEA:** Use `File > Open` and select the `FindJourney` folder.
 
-3. **Demo İçeriği Çalıştır**  
-   - Eğer `db.js` içindeki verileri kullanıyorsanız, JavaScript destekli bir tarayıcı kullanmalısınız.
+2. **Run the Project**  
+   - Execute `TransportationMain.java` to start the system.
 
 ## 📜 Documentation
 
-Daha fazla bilgi için **db.js, project.js, project.css** dosyalarına göz atabilirsiniz.
+For more details, refer to the `UML Diagram.pdf` file.
+
+---
+
+If you need further information about the project, you can explore the source code for a deeper understanding. Happy coding! 🚀
